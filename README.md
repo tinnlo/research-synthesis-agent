@@ -1,7 +1,6 @@
 # Research Agent
 
-A goal-driven research agent built from scratch for the Wolters Kluwer AI
-Engineering take-home case study. No agent frameworks — pure Python with OpenAI and Tavily.
+A goal-driven research agent built from scratch. No agent frameworks — pure Python with OpenAI and Tavily.
 
 ---
 
@@ -114,7 +113,7 @@ See [docs/EVALUATION.md](docs/EVALUATION.md) for detailed context strategy, eval
 ## Project Structure
 
 ```
-wolters_kluwer_case/
+research-synthesis-agent/
 ├── main.py                  CLI entry point
 ├── src/
 │   ├── agent.py             Orchestration loop + resume()
@@ -138,7 +137,7 @@ wolters_kluwer_case/
 │   ├── EVALUATION.md
 │   ├── RUNNING.md
 │   ├── WALKTHROUGH.md
-│   └── wolters_kluwer_case.md   Original take-home brief
+│   └── case_brief.md            Original take-home brief
 ├── examples/
 │   └── transcript_webassembly.md
 └── data/                    SQLite database (created at first run, gitignored)

@@ -89,7 +89,7 @@ Those paths are deterministic Python.
 ## 3. Component Map
 
 ```
-wolters_kluwer_case/
+research-synthesis-agent/
 ├── main.py                 CLI entry point; --list-sessions, --resume, positional goal
 ├── src/
 │   ├── agent.py            Agent controller: run() and resume() orchestration loops

@@ -22,7 +22,7 @@ Both API keys are required. The agent will fail at startup if either is missing.
 
 ```bash
 git clone <repo-url>
-cd wolters_kluwer_case
+cd research-synthesis-agent
 
 # Create and activate a virtual environment
 python3 -m venv .venv

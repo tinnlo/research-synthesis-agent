@@ -33,7 +33,7 @@ User Input → Planning Agent → TODO List → Execution Agent (with Tools) →
 
 ## Original Case Gate
 
-`docs/wolters_kluwer_case.md` is the source of truth for scope and acceptance. The implementation is allowed to add polish only after these gates are satisfied by working code, real logs, and submission artifacts.
+`docs/case_brief.md` is the source of truth for scope and acceptance. The implementation is allowed to add polish only after these gates are satisfied by working code, real logs, and submission artifacts.
 
 | Case Requirement | Plan Commitment | Acceptance Gate |
 |------------------|-----------------|-----------------|
@@ -607,7 +607,7 @@ async def run_agent_loop(goal: str):
 ## File Structure
 
 ```
-wolters_kluwer_case/
+research-synthesis-agent/
 ├── README.md                      # Main documentation
 ├── IMPLEMENTATION_PLAN.md         # This file
 ├── EVALUATION.md                  # Test scenarios (optional - can be in README)
@@ -657,7 +657,7 @@ wolters_kluwer_case/
 │   └── sessions.db                # SQLite database (gitignored)
 │
 └── docs/
-    └── wolters_kluwer_case.md     # Original requirements
+    └── case_brief.md              # Original requirements
 ```
 
 ---

@@ -33,3 +33,6 @@ coverage/
 .idea/
 *.swp
 *.swo
+
+# AI assistant working directory
+.antigravitycli/
